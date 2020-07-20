@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "yarnv2-workspaces-ts-node-bug",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.52",
+    "typescript": "beta"
+  }
+}

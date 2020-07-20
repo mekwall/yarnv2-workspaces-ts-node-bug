@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "@test/bar",
+  "main": "./index.ts",
+  "scripts": {
+    "start": "ts-node ./index.ts",
+    "start-dev": "ts-node-dev ./index.ts"
+  },
+  "dependencies": {
+    "@test/foo": "workspace:packages/foo"
+  },
+  "devDependencies": {
+    "ts-node": "latest",
+    "ts-node-dev": "latest",
+    "typescript": "beta"
+  }
+}
