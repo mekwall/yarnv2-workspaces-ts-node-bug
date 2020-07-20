@@ -11,6 +11,7 @@
     "@test/foo": "workspace:packages/foo"
   },
   "devDependencies": {
+    "@types/node": "latest",
     "ts-node": "latest",
     "ts-node-dev": "latest",
     "typescript": "beta"

@@ -11,6 +11,7 @@
     "@test/bar": "workspace:packages/bar"
   },
   "devDependencies": {
+    "@types/node": "latest",
     "ts-node": "latest",
     "ts-node-dev": "latest",
     "typescript": "beta"

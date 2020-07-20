@@ -10,6 +10,7 @@ __metadata:
   resolution: "@test/bar@workspace:packages/bar"
   dependencies:
     "@test/foo": "workspace:packages/foo"
+    "@types/node": ^14.0.23
     ts-node: latest
     ts-node-dev: latest
     typescript: beta
@@ -26,6 +27,13 @@ __metadata:
     typescript: beta
   languageName: unknown
   linkType: soft
+
+"@types/node@npm:^14.0.23":
+  version: 14.0.23
+  resolution: "@types/node@npm:14.0.23"
+  checksum: 35415a294f536c2b14d29ec02a733af23405f4e7e87dace5b4392a69358aae7a14d28805a528b6e9a5f55cfbd9e035bd817e4db0325945fe0332db40ecabdf84
+  languageName: node
+  linkType: hard
 
 "@types/strip-bom@npm:^3.0.0":
   version: 3.0.0
