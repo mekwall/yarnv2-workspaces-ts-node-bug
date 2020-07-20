@@ -40,6 +40,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "fallbackPool": [
       [
+        "@types/node",
+        "npm:14.0.23"
+      ],
+      [
         "ts-node",
         "virtual:84a812be65afbd782e6d535603ba3ae77b719fc4bd5c12a3b3cb3a55ac9e61ee93314066e6fd3b4e2406998e980d25f21d11a2cb4747ff3d3a978e43b7fc52dd#npm:8.10.2"
       ],
@@ -59,6 +63,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@types/node", "npm:14.0.23"],
             ["ts-node", "virtual:84a812be65afbd782e6d535603ba3ae77b719fc4bd5c12a3b3cb3a55ac9e61ee93314066e6fd3b4e2406998e980d25f21d11a2cb4747ff3d3a978e43b7fc52dd#npm:8.10.2"],
             ["ts-node-dev", "virtual:84a812be65afbd782e6d535603ba3ae77b719fc4bd5c12a3b3cb3a55ac9e61ee93314066e6fd3b4e2406998e980d25f21d11a2cb4747ff3d3a978e43b7fc52dd#npm:1.0.0-pre.52"],
             ["typescript", "patch:typescript@npm%3A4.0.0-beta#builtin<compat/typescript>::version=4.0.0-beta&hash=5b02a2"]
@@ -86,6 +91,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@test/foo", "workspace:packages/foo"],
             ["@test/bar", "workspace:packages/bar"],
+            ["@types/node", "npm:14.0.23"],
             ["ts-node", "virtual:84a812be65afbd782e6d535603ba3ae77b719fc4bd5c12a3b3cb3a55ac9e61ee93314066e6fd3b4e2406998e980d25f21d11a2cb4747ff3d3a978e43b7fc52dd#npm:8.10.2"],
             ["ts-node-dev", "virtual:84a812be65afbd782e6d535603ba3ae77b719fc4bd5c12a3b3cb3a55ac9e61ee93314066e6fd3b4e2406998e980d25f21d11a2cb4747ff3d3a978e43b7fc52dd#npm:1.0.0-pre.52"],
             ["typescript", "patch:typescript@npm%3A4.0.0-beta#builtin<compat/typescript>::version=4.0.0-beta&hash=5b02a2"]
@@ -1936,6 +1942,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["yarnv2-workspaces-ts-node-bug", "workspace:."],
+            ["@types/node", "npm:14.0.23"],
             ["ts-node", "virtual:84a812be65afbd782e6d535603ba3ae77b719fc4bd5c12a3b3cb3a55ac9e61ee93314066e6fd3b4e2406998e980d25f21d11a2cb4747ff3d3a978e43b7fc52dd#npm:8.10.2"],
             ["ts-node-dev", "virtual:84a812be65afbd782e6d535603ba3ae77b719fc4bd5c12a3b3cb3a55ac9e61ee93314066e6fd3b4e2406998e980d25f21d11a2cb4747ff3d3a978e43b7fc52dd#npm:1.0.0-pre.52"],
             ["typescript", "patch:typescript@npm%3A4.0.0-beta#builtin<compat/typescript>::version=4.0.0-beta&hash=5b02a2"]

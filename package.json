@@ -4,7 +4,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "start-foo": "ts-node -P ./tsconfig.json ./packages/foo/src/index.ts"
+  },
   "devDependencies": {
+    "@types/node": "latest",
     "ts-node": "latest",
     "ts-node-dev": "latest",
     "typescript": "beta"

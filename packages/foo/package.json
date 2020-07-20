@@ -5,6 +5,7 @@
   "scripts": {
     "build": "tsc --project tsconfig.json",
     "start": "ts-node ./src/index.ts",
+    "start-root": "ts-node -P ../../tsconfig.json ./src/index.ts",
     "start-dev": "ts-node-dev ./src/index.ts"
   },
   "dependencies": {
