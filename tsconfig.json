@@ -1,0 +1,8 @@
+{
+  "compileOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+  }
+}

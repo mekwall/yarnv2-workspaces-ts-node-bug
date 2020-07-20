@@ -5,8 +5,8 @@
     "packages/*"
   ],
   "devDependencies": {
-    "ts-node": "^8.10.2",
-    "ts-node-dev": "^1.0.0-pre.52",
+    "ts-node": "latest",
+    "ts-node-dev": "latest",
     "typescript": "beta"
   }
 }

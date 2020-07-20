@@ -1,10 +1,11 @@
 {
   "private": true,
   "name": "@test/foo",
-  "main": "./index.ts",
+  "main": "./src/index.ts",
   "scripts": {
-    "start": "ts-node ./index.ts",
-    "start-dev": "ts-node-dev ./index.ts"
+    "build": "tsc --project tsconfig.json",
+    "start": "ts-node ./src/index.ts",
+    "start-dev": "ts-node-dev ./src/index.ts"
   },
   "dependencies": {
     "@test/bar": "workspace:packages/bar"

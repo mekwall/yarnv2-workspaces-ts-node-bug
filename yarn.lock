@@ -1465,7 +1465,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"ts-node-dev@npm:^1.0.0-pre.52, ts-node-dev@npm:latest":
+"ts-node-dev@npm:latest":
   version: 1.0.0-pre.52
   resolution: "ts-node-dev@npm:1.0.0-pre.52"
   dependencies:
@@ -1660,8 +1660,8 @@ typescript@beta:
   version: 0.0.0-use.local
   resolution: "yarnv2-workspaces-ts-node-bug@workspace:."
   dependencies:
-    ts-node: ^8.10.2
-    ts-node-dev: ^1.0.0-pre.52
+    ts-node: latest
+    ts-node-dev: latest
     typescript: beta
   languageName: unknown
   linkType: soft
